@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light background for better contrast */
+    color: #343a40; /* Dark text for readability */
+}
+
+h1, h2 {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 20px; /* Space below the navbar */
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #0056b3; /* Darker shade for active link */
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px; /* Limit container width for better readability */
+}
+
+/* Table Styles */
+.table {
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Light gray for odd rows */
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6; /* Border color for tables */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center; /* Center nav items on mobile */
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px; /* Add padding on smaller screens */
+    }
+}
